@@ -1,0 +1,21 @@
+zad 2
+Używająć Integer.parseInt() stworzyłam kod, który najpierw pyta użytkownika, co chce konwertować(ze string na int): liczby czy litery.
+Po wyborze rodzaju konwersji użytkownik wprowadza swój ciąg znaków.
+Program konweruje wybraną wersję: dla liter Radix: 36, który pozwala konwertować wszystkie liczby i litery.
+Dla liczb używa metody "x.trim()", która konwertuje ciąg cyfr na int.
+W obu przypadkach program sprawdza czy występują błędy formatu.
+W przypadku błędu informuje o tym użytkownika i prosi o ponownie wpisanie znaków.
+zad 3
+Program prosi użytkownika o wpisanie liczbowej zawartości 5-elementowej tablicy, program konwertuje dane na int.
+Wyświetla wybrany przez użytkownika element tablicy.
+Sprawdza format wpisywanych przez użytkownika znaków, wybranego elementu tablicy, oraz czy podany element tablicy mieści się w zakresie tej tablicy.
+W przypadku błędu informuje o tym użytkownika i prosi o ponownie wpisanie danego elementu.
+zad 4
+Przerobiłam dwie klasy jako nadrzędne(Daneproduktu i Wypożyczenie), w których zgodnie z ideą kompozycji deklaruje dane,a następnie określam je funkcjami get i set.
+Klasy Książki, Płyty, Filmy, Audiobooki, Ebooki zostały ustanowione klasą podrzędną dla Daneproduktu.
+W nich klasa nadrzędna została zadeklarowana jako obiekt.
+Wszelkie dane dotyczące tytułu, autora itd zostały teraz zadeklarowane w klasach podrzędnych, zamiast w Start jak to wcześniej miało miejsce.
+W każdej z tych klas pozostały specjalne cechy jak ilość stron czy długość filmu, jednak one również zostały zadeklarowane zgodnie z kompozycją.
+Na tej samej zasadzie Klient został zadeklarowany klasą podrzędną dla Wypożyczenie.
+Zgodnie z poleceniem dziedziczenie jest obecne w programie w klasie Klient i określa dane klientów, które są podawane w Start.
+W klasie Start delaruje obiekty konkretnych klas i dodaje do nich zadeklarowane dane.
