@@ -20,4 +20,6 @@ Na tej samej zasadzie Klient został zadeklarowany klasą podrzędną dla Wypoż
 Zgodnie z poleceniem dziedziczenie jest obecne w programie w klasie Klient i określa dane klientów, które są podawane w Start.
 W klasie Start delaruje obiekty konkretnych klas i dodaje do nich zadeklarowane dane.
 *po poprawie*
-Usunęłam dziedziczenie z klas Książki, Płyty, Filmy, Audiobooki, Ebooki, dodałam także do każdej klasy getID, aby program mógł dalej funkcjonować. Również klasa klient nie dziedziczy już po Wypożyczeniu. Przerobiłam również funcje addDaneproduktu w klasie Wypożyczalnia.
+Usunęłam dziedziczenie z klas Książki, Płyty, Filmy, Audiobooki, Ebooki, dodałam także do każdej klasy getID, aby program mógł dalej funkcjonować.
+Również klasa klient nie dziedziczy już po Wypożyczeniu.
+Przerobiłam także funcje addDaneproduktu w klasie Wypożyczalnia.
